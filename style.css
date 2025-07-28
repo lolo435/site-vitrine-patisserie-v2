@@ -286,7 +286,7 @@ footer {
 }
 
 
-.galery-body {
+.gallery-body {
   background-image: url(image/background-galerie.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -297,20 +297,27 @@ footer {
   align-items: center;
 }
 
-.galery-grid {
+/* .galery-main {
+  width: 100%;
+  height: 90%;
+} */
+
+.gallery-grid {
+margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
   width: 90%;
-  max-width: 1300px;
+  max-width: 1100px;
+  height: 50px;
 }
 
-.galery-grid div img {
+.gallery-grid div img {
   width: 100%;
-  max-width: 400px;
+  max-width: 700px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 9px;
 }
 
 
