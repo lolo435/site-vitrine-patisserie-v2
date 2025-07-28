@@ -23,14 +23,30 @@ header {
   background-color: #cba15d;
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  
+ 
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-logo {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+
+}
+
+
 
 .navbar ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
   width: 100%;
+  margin-left: 10px;
 }
 
 .navbar li a {
@@ -117,7 +133,7 @@ footer {
   bottom: 0;
   width: 100%;
   position: fixed;
-  height: 10vh;
+  height: 5vh;
   background-color: #cba15d;
   display: flex;
   align-items: center;
@@ -223,35 +239,49 @@ footer {
   background-image: url(image/background-cookies.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.cookies-main {
+  height: fit-content;
+   max-height:80VH ;
+   display: flex;
+ 
+   
+}
+
 .cookies-text-grid {
   display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
+ 
+  
 }
 
 .cookies-text {
+  margin-right: 90PX;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+ flex-direction: column;
   font-size: 2rem;
-  text-align: center;
+  
 }
 
 .cookies-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 1rem;
+  margin-top: 30px;
   justify-items: center;
   width: 100%;
   max-width: 1200px;
+  max-height: 60vh;
 }
 
 .cookies-grid img {
-  max-width: 150px;
+  max-width: 120px;
   height: auto;
 }
 
@@ -260,7 +290,7 @@ footer {
   background-image: url(image/background-galerie.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2rem;
+
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -271,8 +301,8 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 1.5rem;
-  width: 100%;
+  gap: 1rem;
+  width: 90%;
   max-width: 1300px;
 }
 
@@ -286,7 +316,7 @@ footer {
 
 .contact-body {
   background-color: #f3b7d5;
-  padding: 2rem;
+ 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
