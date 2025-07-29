@@ -35,7 +35,7 @@ header {
   font-weight: bold;
   color: #FFFFFF;
 
-  
+
 
 }
 
@@ -67,7 +67,7 @@ header {
   /*  color: rgb(152, 70, 70); */
   border-radius: 25px;
   text-decoration: none;
-font-size: calc(8px + 2vh);
+  font-size: calc(8px + 2vh);
   line-height: calc(8px + 4vh);
   /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
     0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
@@ -346,7 +346,6 @@ footer {
 
 .contact-body {
   background-color: #f3b7d5;
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -388,52 +387,78 @@ footer {
 .contact-horaires,
 .contact-reseaux,
 .contact-nous {
-  font-size: 8.rem;
+  font-size: 1rem;
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4rem;
+  /*border: 1px solid #f260b0ea;
+  border-radius: 8px;*/
 
 }
 
 .contact-formulaire {
+  width: 80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-
 }
 
-.contact-group {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
+.contact-information {
+  margin-top: 5px;
+  height: 120px;
   width: 100%;
+  border: 1px solid #f69cceea;
+  border-radius: 8px;
+  display: flex;
+  flex-direction:row;
 }
 
-.contact-group label {
-  width: 35%;
+.contact-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 55%;
   font-weight: bold;
   padding-right: 1rem;
 }
 
-.contact-group input,
-.contact-group textarea {
+.contact-input
+ {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 65%;
-  padding: 0.5rem;
+  padding: 0.3rem;
   font-size: 1rem;
+  
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  
 }
 
-textarea {
+.text-area {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
   resize: vertical;
   min-height: 100px;
+  padding: 20px;
+  
+}
 
+textarea{
+  margin-top: 5px;
+  height: 60px;
+  width: 300Px;
 }
 
 .contact-message {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+ 
 }
 
 .contact-footer {
@@ -494,6 +519,7 @@ textarea {
 }
 
 @keyframes blink {
+
   20%,
   24%,
   55% {
