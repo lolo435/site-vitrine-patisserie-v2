@@ -190,6 +190,14 @@ footer {
   flex: 1;
 }
 
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centre verticalement dans la colonne */
+  align-items: center;       /* centre horizontalement le bloc */
+  text-align: center;        /* centre le texte */
+}
+
 .photo-section {
   display: flex;
   flex-direction: column;
