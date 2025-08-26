@@ -198,6 +198,11 @@ footer {
   text-align: center;        /* centre le texte */
 }
 
+.section-text p, h3{
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
 .photo-section {
   display: flex;
   flex-direction: column;
@@ -213,11 +218,6 @@ footer {
   margin-top: 1rem;
   background: #cba15d;
   padding: 0.5rem;
-}
-
-.photo-section p {
-  margin-top: 1rem;
-  font-size: 1rem;
 }
 
 
@@ -249,12 +249,12 @@ footer {
 }
 
 .cake-title {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 70px;
-  border: 1px solid#f892caea;
   border-radius: 8px;
   justify-content: center;
-  
+  width: 800px;
+  text-align: center;
   
 }
 
@@ -262,11 +262,11 @@ footer {
   margin-left: 80px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  font-size: 1.2rem;
+  /* flex-direction: column; */
+  font-size: 2rem;
   text-align: center;
-  width: 400px;
- 
+  width: 800px;
+ margin-top: 100px;
   
 }
 
@@ -302,14 +302,25 @@ footer {
 
 }
 
+/* .cookies-title{
+    font-size: 1.3rem;
+  margin-left: 70px;
+  justify-content: center;
+  width: 1000px;
+  height: 100px;
+  text-align: center;
+  margin-top: 190px;
+} */
+
 .cookies-text {
   margin-right: 90PX;
-  height: 100%;
+  /* height: 90%; */
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-size: 2rem;
-
+ margin-top: 70px;
+gap: 90px;
 }
 
 .cookies-grid {
@@ -423,7 +434,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: solid black;
   height: 200px;
   margin-left: 40px;
 }
@@ -439,7 +449,6 @@ footer {
   margin-top: 5px;
   height: 120px;
   width: 100%;
-  border: 1px solid #f69cceea;
   border-radius: 8px;
   display: flex;
   flex-direction: row;
